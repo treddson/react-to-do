@@ -6,11 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      todos: [
-        { description: 'Walk the cat', isCompleted: false },
-        { description: 'Throw the dishes away', isCompleted: false },
-        { description: 'Buy new dishes', isCompleted: false },
-      ],
+      todos: [],
       newTodoDescription: ''
     };
   }
@@ -19,7 +15,6 @@ delete(index) {
   const todos = this.state.todos.filter((todo, i) => i !== index);
   this.setState({ todos: todos});
 }
-
 
 handleChange(e) {
   this.setState({ newTodoDescription: e.target.value})
