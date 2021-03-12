@@ -6,12 +6,14 @@ import "./App.css";
 const App = () => {
   return (
     <Fragment>
-      <section className="nav">
-        <NavBar title="Navigation" />
-      </section>
-      <section className="body">
-        <Tweets />
-      </section>
+      <div className="wrapper">
+        <section className="nav">
+          <NavBar title="Navigation" />
+        </section>
+        <section className="body">
+          <Tweets />
+        </section>
+      </div>
     </Fragment>
   );
 };

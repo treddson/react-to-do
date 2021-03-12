@@ -4,11 +4,11 @@ const NavBar = (props) => {
   return (
     <Fragment>
       <h5>{props.title}</h5>
-      <ul>
-        <li>Home</li>
-        <li>Profile</li>
-        <li>Analytics</li>
-        <li>About</li>
+      <ul className="nav-items">
+        <li className="nav-item">Home</li>
+        <li className="nav-item">Profile</li>
+        <li className="nav-item">Analytics</li>
+        <li className="nav-item">About</li>
       </ul>
     </Fragment>
   );
