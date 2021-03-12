@@ -8,7 +8,7 @@ const App = () => {
     <Fragment>
       <div className="wrapper">
         <section className="nav">
-          <NavBar title="Navigation" />
+          <NavBar />
         </section>
         <section className="body">
           <Tweets />
