@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import NavBar from "./components/NavBar";
-import Tweets from "./components/Tweets";
+import Songs from "./components/Songs";
 import "./App.css";
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
           <NavBar />
         </section>
         <section className="body">
-          <Tweets />
+          <Songs />
         </section>
       </div>
     </Fragment>
